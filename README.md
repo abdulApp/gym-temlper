@@ -7,8 +7,8 @@ A Sample Code and for Gym website using ![HTML5](https://img.shields.io/badge/-H
 
 ## Technologies Used:
 
-* HTML5
-* CSS3
+* ![HTML5](https://img.shields.io/badge/-HTML5-000000?style=flat&logo=html5)
+* ![CSS3](https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3)
 
 ## `Silent Features`:
 
