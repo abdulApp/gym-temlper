@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Gym</title>
+    </head>
+    <body>
+        <div class="menu">
+            <ul>
+                <li><a href="#" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#" onclick="toggleMenu();">About</a></li>
+                <li><a href="#" onclick="toggleMenu();">Training</a></li>
+                <li><a href="#" onclick="toggleMenu();">Team</a></li>
+                <li><a href="#" onclick="toggleMenu();">Contact</a></li>
+            </ul>
+        </div>
+        <section class="banner">
+            <header>
+                <h2 class="logo">YOUR LOGO</h2>
+                <div class="toggle" onclick="toggleMenu();"></div>
+            </header>
+            <video src="./videos/production.mp4" muted loop autoplay></video>
+            <video src="./videos/boxing.mp4" muted loop autoplay></video>
+            <div class="overlay"></div>
+            <div class="text">
+                <h2>Be Stronger</h2>
+                <h3>Never give up</h3>
+                <p>
+                    Disclaimer video is for educational purpose only. Copyright
+                    Disclaimer Under Section 107 of the Copyright Act 1976, allowance
+                    is made for "fair use" for purposes such as criticism, comment,
+                    news reporting, teaching, scholarship, and research. Fair use is
+                    a use permitted by copyright statute that might otherwise be infringing.
+                    Non-profit, educational or personal use tips the balance in favor of fair use
+                </p>
+                <a href="#">Join Us</a>
+            </div>
+            <ul class="sci">
+                <li><a href="#"><img src="./images/twitter.png" alt=""></a></li>
+                <li><a href="#"><img src="./images/facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="./images/instagram.png" alt=""></a></li>
+            </ul>
+        </section>
+        <script type="text/javascript">
+            function toggleMenu() {
+                var menuToggle = document.querySelector('.toggle');
+                var banner = document.querySelector('.banner');
+                menuToggle.classList.toggle('active');
+                banner.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
