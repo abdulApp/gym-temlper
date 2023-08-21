@@ -113,9 +113,28 @@ section video {
     color: #fff;
 }
 
+.menu a:hover {
+    background-color: red;
+    transition: 0.5s;
+    padding: 5px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+/* .text a:hover {
+    background-color: red;
+    transition: ease-in-out 0.5s;
+    color: #fff;
+    border-radius: 25px;
+} */
+
+/* .text a:hover::after {
+    transition: 0.5s;
+} */
+
 .text a {
     display: inline-block;
-    font-size: 1.1em;
+    font-size: 1.9em;
     background: #fff;
     padding: 10px 30px;
     text-transform: uppercase;
@@ -123,7 +142,7 @@ section video {
     font-weight: 500;
     margin-top: 10px;
     color: #111;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
 }
 
 .sci {
